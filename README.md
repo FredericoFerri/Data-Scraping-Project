@@ -1,7 +1,7 @@
 # Data scraping project
 
 # Motivations
-This project is result of a challenge made by the company [Bluetape](https://bluetape.com.br/) which asks to scrape data from top 3 best and top 3 worst Fashion companies ranked in 
+This project was made in partnership with [Bluetape](https://bluetape.com.br/). It consists in a Python code that scrapes data from top 3 best and top 3 worst Fashion companies ranked in 
 [ReclameAqui](https://www.reclameaqui.com.br/) website. 
 
 ## 💻 Getting Started
