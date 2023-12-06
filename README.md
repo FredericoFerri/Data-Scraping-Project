@@ -1,7 +1,8 @@
 # Data scraping project
 
 # Motivations
-This project is result of a challenge made by the company [Bluetape](https://bluetape.com.br/) where tools
+This project is result of a challenge made by the company [Bluetape](https://bluetape.com.br/) which asks to scrape data from top 3 best and top 3 worst Fashion companies ranked in 
+[ReclameAqui](https://www.reclameaqui.com.br/) website. 
 
 ## 💻 Getting Started
 
@@ -23,15 +24,15 @@ Open your terminal or command prompt and run the following commands:
    pip install selenium
    
 2.  Install Webdriver Manager:
-  ```bash
+   ```bash
    pip install webdriver_manager
 
-3. Install requests
-  ```bash
+3. Install Requests:
+   ```bash
    pip install requests
 
-3. Install BeautifulSoup
-  ```bash
+4. Install BeautifulSoup:
+   ```bash
    pip install beautifulsoup4
 
 ## ☕ Running <projeto2.py>
@@ -41,6 +42,9 @@ To run <projeto2.py>, on terminal or cmd type:
 ```
 <python projeto2.py>
 ```
+
+remembering that projeto.py must be on the same directory as projeto2.py
+
 ## 📝 License
 
 This project is under license. See file [LICENSE](LICENSE.md) for more detail.
