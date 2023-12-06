@@ -20,11 +20,25 @@ To run the codes implemented on this repository, you may download the following 
 Open your terminal or command prompt and run the following commands:
 
 1. Install Selenium:
+   
    ```bash
    pip install selenium
+   
+3. Install Webdriver Manager:
+   
+   ```bash
    pip install webdriver_manager
+   
+5. Install Requests:
+   
+   ```bash
    pip install requests
+   
+7. Install BeautifulSoup:
+   
+   ```bash
    pip install beautifulsoup4
+   
 
 ## ☕ Running <projeto2.py>
 
