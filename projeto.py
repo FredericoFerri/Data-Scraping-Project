@@ -1,13 +1,6 @@
 import requests 
 from bs4 import BeautifulSoup 
 
-#dados dos produtos 
-#lucro_liquido = {'Pino tensor':{'virgem':1600,'recondicionado':1280}, 
-#                 'Coxim motor':{'virgem':2500,'recondicionado':2000}, 
-#                 'Batente':{'virgem':1000,'recondicionado':800}, 
-#                 'Bucha amortecedora':{'virgem':750,'recondicionado':600}}
-
-#url = "https://www.reclameaqui.com.br/empresa/lojas-renner/"
 
 def scrapingData(url):
     # Reclame aqui:
@@ -19,23 +12,19 @@ def scrapingData(url):
     print(req)
 
     soup = BeautifulSoup(req.content, 'html5lib') # If this line causes an error, run 'pip install html5lib' or install html5lib 
-    #print(soup.prettify()) 
 
-    # NOME DA EMPRESA
+    # COMPANY NAME
     name = soup.find("h1", class_="short-name")
 
-    # NOTA DA EMPRESA
+    # COMPANY SCORE
     score = soup.find("span", class_="score")
     score_text = score.text.split('/')[0]
     
-    # DADOS DA EMPRESA
+    # COMPANY STATS
     complaintsAnswered = soup.find_all("span", class_="label")
 
     complaints_answered = []
     for element in complaintsAnswered:
         complaints_answered.append(element.text)
-
-    #for element in complaintsAnswered:
-    #    print(element.text)
 
     return name.text, score_text, complaints_answered
