@@ -44,11 +44,11 @@ Open your terminal or command prompt and run the following commands:
 
 To run <projeto2.py>, on terminal or cmd type:
 
-```
-<python projeto2.py>
+```bash
+python projeto2.py
 ```
 
-remembering that projeto.py must be on the same directory as projeto2.py
+remember that projeto.py must be on the same directory as projeto2.py
 
 ## 📝 License
 
