@@ -31,7 +31,7 @@ Open your terminal or command prompt and run the following commands:
    ```bash
    pip install requests
 
-4. Install BeautifulSoup:
+4.Install BeautifulSoup:
    ```bash
    pip install beautifulsoup4
 
